@@ -11,9 +11,7 @@ btn.addEventListener("click",(e)=>{
         if (-1<arr.indexOf(ranNum)){
             i--
             continue
-        }else{
-            arr.push(ranNum)
-        }
+        }arr.push(ranNum)
     }
     console.log(arr)
 })
